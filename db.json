@@ -1,29 +1,127 @@
 {
-    "bg": "/jiraiya-bg.jpg",
-    "logo": "/logo.png",
-    "title": "Quiz CSS da Alura",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+    "bg": "/breaking-bad-bg.jpg",
+    "logo": "/breaking-bad-logo.png",
+    "title": "Breaking Bad",
+    "description": "Teste os seus conhecimentos sobre a série.",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
+        "image": "https://media.giphy.com/media/qCj1NK1rxtnna/giphy.gif",
+        "title": "Qual matéria Walter White ensinava na escola?",
+        "description": "",
+        "answer": 3,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Física",
+          "Ciências",
+          "Culinária",          
+          "Química"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "image": "https://media.giphy.com/media/3oKIPm3BynUpUysTHW/giphy.gif",
+        "title": "Quanto dinheiro Walt tinha quando se aposentou da venda de metanfetamina?",
+        "description": "",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "80 milhões de dólares",
+           "25 milhões de dólares",
+           "250 milhões de dólares",
+           "50 milhões de dólares"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/qFNnOKIs6tBD2/giphy.gif",
+        "title": "Qual é o país de origem de Gus Fring?",
+        "description": "",
+        "answer": 1,
+        "alternatives": [
+           "México",
+           "Chile",
+           "Venezuela",
+           "Porto Rico"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/ku4elcos7hFwQ/giphy.gif",
+        "title": "Qual presente Marie roubou?",
+        "description": "",
+        "answer": 2,
+        "alternatives": [
+           "Anel de diamantes",
+           "Colher",
+           "Tiara",
+           "Vestido"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/qChNF7JPnML84/giphy.gif",
+        "title": "Qual o nome do autor do livro que Hank lia quando descobriu a verdadeira identidade de Walt?",
+        "description": "",
+        "answer": 1,
+        "alternatives": [
+           "William White",
+           "Walt Whitman",
+           "Walter Wick",
+           "Will Walsh"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/WDMZ1m73OpacU/giphy.gif",
+        "title": "Qual o nome da filha de Walt e Skyler?",
+        "description": "",
+        "answer": 2,
+        "alternatives": [
+           "Hope",
+           "Lisa",
+           "Holly",
+           "Amy"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/4qNsW4BwMojde/giphy.gif",
+        "title": "Qual o sobrenome de Mike, capanga de Gus Fring?",
+        "description": "",
+        "answer": 1,
+        "alternatives": [
+          "Zimmermann",
+          "Ehrmantraut",
+          "Albrecht",
+          "Ziegler"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/SBNzitbIpnDUY/giphy.gif",
+        "title": "Qual o apelido Jesse deu ao trailer que ele e Walt usavam para cozinhar metanfetamina?",
+        "description": "",
+        "answer": 0,
+        "alternatives": [
+          "A Nave de Cristal",
+          "O Cristalizador",
+          "A Cozinha do Deserto",
+          "A Maravilhosa Fábrica dos Cristais"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/11jkrpPYTQkaU8/giphy.gif",
+        "title": "Qual o verdadeiro nome de Saul Goodman?",
+        "description": "",
+        "answer": 2,
+        "alternatives": [
+          "Jonah McGill",
+          "Jeremy McGill",
+          "James McGill",
+          "John McGill"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/1nCfZ1mDXGcyk/giphy.gif",
+        "title": "Complete a frase: ''Eu fiz por mim. Eu gostei de fazer. E eu era bom naquilo. E eu ...''",
+        "description": "",
+        "answer": 1,
+        "alternatives": [
+          "''...não me arrependo de nada.''",
+          "''...me sentia vivo.''",
+          "''...faria de novo''",
+          "''...me arrependo de tudo.''"
         ]
       }
     ],
@@ -32,9 +130,9 @@
     ],
     "theme": {
       "colors": {
-        "primary": "#650000",
-        "secondary": "#29b6f6",
-        "mainBg": "#00000070",
+        "primary": "#032202",
+        "secondary": "#1F6032",
+        "mainBg": "#0D3E10",
         "contrastText": "#FFFFFF",
         "wrong": "#FF5722",
         "success": "#4CAF50"
